@@ -16,7 +16,7 @@ const port = process.env.PORT || 4000;
 
 app.use(
   cors({
-    origin: "https://sistema-inventario-frontend.onrender.com", // Dominio de tu frontend
+    origin: "https://sistema-inventario-frontend-7pg9.onrender.com", // Dominio de tu frontend
     methods: ["GET", "POST", "PUT", "DELETE"], // Métodos permitidos
     allowedHeaders: ["Content-Type", "Authorization"], // Headers permitidos
   })
